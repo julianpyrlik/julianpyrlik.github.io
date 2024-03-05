@@ -4,12 +4,8 @@ import os
 
 app = Flask(__name__)
 # essential for securing your application's sessions, cookies, and cryptographic functions
-app.config['SECRET_KEY'] = "njsl284552nonwgsff840nf893yf8f3"
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
 Bootstrap5(app)
-
-
-
-
 
 # --------------------------------create functions---------------------------------------
 
@@ -19,4 +15,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5002)
+    app.run(debug=False, port=5002)
