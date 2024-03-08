@@ -36,7 +36,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#work">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -162,7 +162,7 @@
                 <span class="ico-circle"><i class="bi bi-file-bar-graph"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web & Software Development</h2>
+                <h2 class="s-title">Web & Software <br>Development</h2>
                 <p class="s-description text-center">
                   Crafting tailored solutions to meet your web and software needs. Let's bring your ideas to life with precision and innovation.
                 </p>
@@ -199,34 +199,42 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Work Section ======= -->
-    <section id="portfolio">
-      <h3 class="services__title mb-2 text-center">Portfolio</h3>
-      <p class="services__sub mb-3 text-center">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-      </p>
-      <div class="services__line"></div>
-      <div class="portfolio__container container mx-auto py-5">
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Portfolio
+              </h3>
+              <p class="subtitle-a">
+                Look at some of my projects.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+
+      <div class="portfolio__container container mx-auto py-0">
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100">
               <div class="zoomify">
-                <img src="static/assets/img/work-1.jpg" class="card-img-top" alt="work-1 image">
+                <img src="static/assets/img/work-1.jpg" class="card-img-top" alt="work-1 image" height="175">
               </div>
 
               <div class="card-body">
                 <div class="card__data mt-3 mb-1">
                   <div class="row row-cols-2">
                     <div class="col w-75">
-                      <h5 class="card-title">Lorem impsum dolor</h5>
+                      <h5 class="card-title">OneMovie</h5>
                       <p class="card-text">
-                        <span class="text-capitalize text-primary">web design</span>
-                        / 18 Sep. 2018
+                        Website that recommends movies based on the user's preferences. It works with the TMDb API
                       </p>
                     </div>
                     <div class="col w-25 align-self-center justify-content-end">
-                      <button type="button" class="btn btn-outline-primary modal__btn" data-bs-toggle="modal" data-bs-target="#work1">
-                        <i class="fa-solid fa-plus fa-md"></i>
-                      </button>
+                      <a href="https://github.com/julianpyrlik/OneMovie" target="_blank" class="btn btn-outline-primary modal__btn">
+                        <i class="bi bi-plus"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -236,23 +244,22 @@
           <div class="col">
             <div class="card h-100">
               <div class="zoomify">
-                <img src="./Assets/img/work-2.jpg" class="card-img-top" alt="work-2 image">
+                <img src="static/assets/img/work-2.jpg" class="card-img-top" alt="work-2 image" height="175" >
               </div>
 
               <div class="card-body">
                 <div class="card__data mt-3 mb-1">
                   <div class="row row-cols-2">
                     <div class="col w-75">
-                      <h5 class="card-title">Loreda Cuno Nere</h5>
+                      <h5 class="card-title">Spotify Playlist Creator</h5>
                       <p class="card-text">
-                        <span class="text-capitalize text-primary">web design</span>
-                        / 18 Sep. 2018
+                        Program to create Spotify Playlists with the top 100 charts based on the year that the user inputs
                       </p>
                     </div>
                     <div class="col w-25 align-self-center justify-content-end">
-                      <button type="button" class="btn btn-outline-primary modal__btn" data-bs-toggle="modal" data-bs-target="#work2">
-                        <i class="fa-solid fa-plus fa-md"></i>
-                      </button>
+                      <a href="https://github.com/julianpyrlik/Spotify-Playlist-Creator" target="_blank" class="btn btn-outline-primary modal__btn">
+                        <i class="bi bi-plus"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -262,23 +269,22 @@
           <div class="col">
             <div class="card h-100">
               <div class="zoomify">
-                <img src="./Assets/img/work-3.jpg" class="card-img-top" alt="work-3 image">
+                <img src="static/assets/img/work-3.jpg" class="card-img-top" alt="work-3 image" height="175">
               </div>
 
               <div class="card-body">
                 <div class="card__data mt-3 mb-1">
                   <div class="row row-cols-2">
                     <div class="col w-75">
-                      <h5 class="card-title">Mavrito Lana Dere</h5>
+                      <h5 class="card-title">Data Automation</h5>
                       <p class="card-text">
-                        <span class="text-capitalize text-primary">web design</span>
-                        / 18 Sep. 2018
+                        Program that automates the process of collecting property data from a website stores tha data in a form
                       </p>
                     </div>
                     <div class="col w-25 align-self-center justify-content-end">
-                      <button type="button" class="btn btn-outline-primary modal__btn" data-bs-toggle="modal" data-bs-target="#work3">
-                        <i class="fa-solid fa-plus fa-md"></i>
-                      </button>
+                      <a href="https://github.com/julianpyrlik/Property-tracker" target="_blank" class="btn btn-outline-primary modal__btn">
+                        <i class="bi bi-plus"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -289,136 +295,14 @@
 
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-1 mt-md-3">
           <div class="col">
-            <div class="card h-100">
-              <div class="zoomify">
-                <img src="./Assets/img/work-4.jpg" class="card-img-top" alt="work-4 image">
-              </div>
 
-              <div class="card-body">
-                <div class="card__data mt-3 mb-1">
-                  <div class="row row-cols-2">
-                    <div class="col w-75">
-                      <h5 class="card-title">Bindo Laro Cado</h5>
-                      <p class="card-text">
-                        <span class="text-capitalize text-primary">web design</span>
-                        / 18 Sep. 2018
-                      </p>
-                    </div>
-                    <div class="col w-25 align-self-center justify-content-end">
-                      <button type="button" class="btn btn-outline-primary modal__btn" data-bs-toggle="modal" data-bs-target="#work4">
-                        <i class="fa-solid fa-plus fa-md"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="zoomify">
-                <img src="./Assets/img/work-5.jpg" class="card-img-top" alt="work-5 image">
-              </div>
 
-              <div class="card-body">
-                <div class="card__data mt-3 mb-1">
-                  <div class="row row-cols-2">
-                    <div class="col w-75">
-                      <h5 class="card-title">Studio Lena Mado</h5>
-                      <p class="card-text">
-                        <span class="text-capitalize text-primary">web design</span>
-                        / 18 Sep. 2018
-                      </p>
-                    </div>
-                    <div class="col w-25 align-self-center justify-content-end">
-                      <button type="button" class="btn btn-outline-primary modal__btn" data-bs-toggle="modal" data-bs-target="#work5">
-                        <i class="fa-solid fa-plus fa-md"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="zoomify">
-                <img src="./Assets/img/work-6.jpg" class="card-img-top" alt="work-6 image">
-              </div>
-
-              <div class="card-body">
-                <div class="card__data mt-3 mb-1">
-                  <div class="row row-cols-2">
-                    <div class="col w-75">
-                      <h5 class="card-title">Studio Big Bang</h5>
-                      <p class="card-text">
-                        <span class="text-capitalize text-primary">web design</span>
-                        / 18 Sep. 2018
-                      </p>
-                    </div>
-                    <div class="col w-25 align-self-center justify-content-end">
-                      <button type="button" class="btn btn-outline-primary modal__btn" data-bs-toggle="modal" data-bs-target="#work6">
-                        <i class="fa-solid fa-plus fa-md"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="testimon__container my-5">
-        <div class="testBG__layer">
-          <div id="carouselExampleIndicators" class="carousel slide pt-5">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active slide__item">
-                <img src="./Assets/img/counters-bg.jpg" class="d-block w-100 slide__img" alt="background image">
-                <div class="carousel-caption top-0 mt-5 d-md-block">
-                  <img src="./Assets/img/testimonial-2.jpg" class="d-block review__img" alt="reviewer1">
-                  <h2 class="text-capitalize py-2 py-md-3">Xavi Alonso</h2>
-                  <p class="review__text mx-auto text-center">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                    sem. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit.
-                  </p>
-                  <p class="test__icon border-1 border border-white bg-white text-primary rounded rounded-circle py-2 px-2 mx-auto">
-                    <i class="fa fa-quote-right fa-2xl"></i>
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item slide__item">
-                <img src="./Assets/img/intro-bg.jpg" class="d-block w-100 slide__img" alt="background image">
-                <div class="carousel-caption top-0 mt-5 d-md-block">
-                  <img src="./Assets/img/testimonial-4.jpg" class="d-block review__img" alt="reviewer2">
-                  <h2 class="text-capitalize py-2 py-md-3">Marta Socrate</h2>
-                  <p class="review__text mx-auto text-center">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                    sem. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit.
-                  </p>
-                  <p class="test__icon border-1 border border-white bg-white text-primary rounded rounded-circle py-2 px-2 mx-auto">
-                    <i class="fa fa-quote-right fa-2xl"></i>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
         </div>
       </div>
     </section>
+    <!-- ======= Work NEWWWWWWWW Section ======= -->
+
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(static/assets/img/overlay-bg.jpg)">
       <div class="overlay-mf"></div>
