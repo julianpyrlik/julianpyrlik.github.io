@@ -90,7 +90,7 @@ a:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: center 50%;
 }
 
 @media (max-width: 1024px) {
@@ -736,6 +736,8 @@ a:hover {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
 .hero {
   height: 100vh;
   position: relative;
@@ -746,6 +748,8 @@ a:hover {
   text-align: center;
   position: absolute;
 }
+
+
 
 .hero .overlay-itro {
   background-color: rgba(0, 0, 0, 0.6);
