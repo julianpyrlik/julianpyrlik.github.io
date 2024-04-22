@@ -829,12 +829,12 @@ a:hover {
 # About
 --------------------------------------------------------------*/
 .about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .about-mf .about-img {
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 .about-mf .about-img img {
